@@ -15,7 +15,7 @@ class FooModel
 
     public function getAllFoos()
     {
-        $sql = 'SELECT * FROM posts';
+        $sql = 'SELECT id, title, created_at FROM posts';
 
         $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 

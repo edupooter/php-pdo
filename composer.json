@@ -1,5 +1,6 @@
 {
     "require": {
-        "doctrine/dbal": "^3.0"
+        "doctrine/dbal": "^3.0",
+        "league/climate": "^3.7"
     }
 }
